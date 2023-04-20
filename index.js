@@ -22,9 +22,11 @@ ________________________________________________________________________________
 3 - Analise o programa abaixo, entenda o que ele faz e sugira melhores nomes para as variáveis. Lembre-se que devemos escolher nomes 
 significativos, usar o padrão camelCase. Alem disso, os nomes não podem começar com números ou caracteres especiais.
 
-let p = prompt("Quantas horas você trabalha por dia?") // 
+
+//Recebe informações de horas trabalhadas por dia e pagamento diário, dividindo o segundo pelo primeiro e retornando pagamento por hora
+//let p = prompt("Quantas horas você trabalha por dia?") // 
 let horasDiarias = prompt("Quantas horas você trabalha por dia?")
-let t = prompt("Quanto você recebe por dia?") // 
+//let t = prompt("Quanto você recebe por dia?") // 
 let pagamentoDiario = prompt("Quanto você recebe por dia?")
 //alert(`Voce recebe ${t/p} por hora`) 
 alert(`Voce recebe ${pagamentoDiario/horasDiarias} por hora`)
